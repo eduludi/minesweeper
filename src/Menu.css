@@ -1,0 +1,14 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu > *:not(:first-child) {
+  margin-top: 2rem;
+}
+
+.options > *:not(:first-child) {
+  margin-top: 1rem;
+}

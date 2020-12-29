@@ -1,0 +1,26 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo .icon {
+  font-size: 7rem;
+  margin-top: 1rem;
+}
+
+.logo .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: red;
+  text-shadow: 0.1rem 0.25rem 0 black;
+  margin-left: 2rem;
+  font-size: 4rem;
+}
+
+.logo .title em {
+  color: green;
+  margin: -1rem 0 0 -1rem;
+}

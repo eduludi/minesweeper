@@ -1,0 +1,47 @@
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2pt solid lightgray;
+  border-bottom-color: darkgray;
+  border-right-color: darkgray;
+  background-color: #eee;
+  width: 1rem;
+  height: 1rem;
+  padding: 0.5rem;
+}
+
+.cell--visible {
+  background-color: #fefefe;
+  border: 2pt solid darkgray;
+  border-bottom-color: lightgray;
+  border-right-color: lightgray;
+}
+
+.cell--0 {
+  color: #ccc;
+}
+.cell--1 {
+  color: blue;
+}
+.cell--2 {
+  color: green;
+}
+.cell--3 {
+  color: red;
+}
+.cell--4 {
+  color: purple;
+}
+.cell--5 {
+  color: maroon;
+}
+.cell--6 {
+  color: turquoise;
+}
+.cell--7 {
+  color: black;
+}
+.cell--8 {
+  color: gray;
+}

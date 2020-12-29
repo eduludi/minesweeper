@@ -1,0 +1,21 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  max-width: 50vh;
+}
+
+.home > *:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
