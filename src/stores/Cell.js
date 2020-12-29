@@ -7,6 +7,7 @@ export default class Cell {
   flag = false;
   counter = 0;
   hasBomb = false;
+  exploded = false;
 
   constructor(x, y) {
     makeAutoObservable(this);
@@ -20,6 +21,8 @@ export default class Cell {
   }
 
   setBomb = (value) => (this.hasBomb = value);
+
+  makeBoom = () => (this.exploded = true);
 
   unveil = () => (this.visible = true);
 

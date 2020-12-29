@@ -18,6 +18,13 @@
   border-right-color: lightgray;
 }
 
+.cell--exploded {
+  background-color: red;
+  border: 2pt solid orange;
+  border-bottom-color: lightsalmon;
+  border-right-color: lightsalmon;
+}
+
 .cell--0 {
   color: #ccc;
 }

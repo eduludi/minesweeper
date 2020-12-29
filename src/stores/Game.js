@@ -136,6 +136,8 @@ export default class Game {
         this.status = "boom";
         this.stopTimer();
 
+        cell.makeBoom();
+
         for (const cell of this.veiledCells) {
           cell.unveil();
         }

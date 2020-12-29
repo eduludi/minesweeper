@@ -5,12 +5,14 @@ import { useGame } from "./stores/GameProvider";
 import "./Cell.css";
 
 function Cell({ cell }) {
-  const { counter, flag, visible, hasBomb } = cell;
+  const { counter, flag, visible, hasBomb, exploded } = cell;
   const game = useGame();
 
   return (
     <span
-      className={`cell cell--${counter} ${visible ? "cell--visible" : ""}`}
+      className={`cell cell--${counter} ${visible ? "cell--visible" : ""} ${
+        exploded ? "cell--exploded" : ""
+      }`}
       onClick={() =>
         game.status === "started" ? game.unveilCell(cell) : game.layBombs(cell)
       }
