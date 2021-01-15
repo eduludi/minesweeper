@@ -7,6 +7,7 @@ import Status from "./Status";
 import Logo from "./ui/Logo";
 import Button from "./ui/Button";
 import Menu from "./Menu";
+import Footer from "./Footer";
 
 import "./Main.css";
 
@@ -33,6 +34,7 @@ function Main() {
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 }

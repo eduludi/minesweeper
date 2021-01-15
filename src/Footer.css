@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 0.75rem;
+}
+
+.by {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.links > *:not(:first-child) {
+  margin-left: 1rem;
+}
+
+.link {
+  color: green;
+}
+
+.link:active,
+.link:focus {
+  color: red;
+}
+
+.link:visited {
+  color: darkgreen;
+}
